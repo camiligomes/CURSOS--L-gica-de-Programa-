@@ -1,0 +1,24 @@
+//O pseudocodigo nada mais é que um esquema de como podemos organizar nossas ideias para resolver problemas. uma forma simples de entender como funciona as linguagens com o dialeto mais próximo do que estamos acostumados, a seguir um bom exemplo, feito pelo professor do canal Hashtag Programação, um abraço pra ti moço!
+
+
+
+
+nomeAluno = 'Daniel Porto'
+notasLancadas = 0
+pontoSomados = 0
+media= 0
+
+// estrutura de repeticao
+enquanto (notasLancadas < 4)
+   nota = insira a nova nota do Daniel
+   pontoSomados = pontoSomados = + nota
+   notasLancadas = notasLancadas + 1
+   media = pontoSomados / notasLancadas
+   //encerro as repeticoes
+
+
+   //codigo condicional
+   se (media >=6)
+       entao escreva ('Aluno aprovado)
+   caso  contrario
+       entao escreva ('Aluno  reprovado')
